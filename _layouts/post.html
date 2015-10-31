@@ -1,4 +1,21 @@
 ---
 layout: default
 ---
-{% include post.html %}
+<div id="blog-posts">
+  <header class="bloghead">
+    <a href='/'>&laquo; Back to blog archive</a>
+
+  </header>
+
+    <a class='blog-post-title' href="{{ post.url }}">{{ post.title }}</a><br/>
+    <a class='blog-post-subtitle' href="{{ post.url }}">{{ post.subtitle }}</a>
+
+    	<div class='post'>
+        <p>
+        {{ content }}
+        </p>
+      </div>
+
+
+
+</div>

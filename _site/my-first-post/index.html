@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Ramakrishnan - Home</title>
-    {% if page.canonical_url %}
-    <link rel="canonical" href="{{ page.canonical_url }}" />
-    {% endif %}
+    
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Welcome to Ramakrishnan's Personal Website.Interesting stuff about Ram " />
     <meta name="author" content="Ramakrishnan Sathyavageeswaran" />
@@ -27,28 +25,28 @@
     <div class="site">
         <aside class="sidebar" id="sidebar">
             <header class="header">
-                <h1 class="title"><a href="{{ site.site_base }}"><img id="logo" src="/images/logo.png"></a></h1>
+                <h1 class="title"><a href="http://ramakrishnan.me"><img id="logo" src="/images/logo.png"></a></h1>
                 <span class="tagline">ramakrishnan.me</span>
             </header>
             <div class="navbar">
                 <ul class="nav-list">
                     <li class="nav-link">
-                        <a class="nav-title" href="{{ site.site_base }}#about">
+                        <a class="nav-title" href="http://ramakrishnan.me#about">
                         about
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-title" href="{{ site.site_base }}#">
+                        <a class="nav-title" href="http://ramakrishnan.me#">
                         skills
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-title" href="{{ site.blog_base }}">
+                        <a class="nav-title" href="http://blog.ramakrishnan.me">
                         blog
                         </a>
                     </li>
                     <li class="nav-link">
-                        <a class="nav-title" href="{{ site.site_base }}#">
+                        <a class="nav-title" href="http://ramakrishnan.me#">
                         contact
                         </a>
                     </li>
@@ -67,7 +65,32 @@
             <div id="sidebar-button">
                 <i class="fa fa-bars fa-2x"></i>
             </div>
-            {{ content }}
+            <div id="blog-posts">
+  <header class="bloghead">
+    <a href='/'>&laquo; Back to blog archive</a>
+
+  </header>
+
+    <a class='blog-post-title' href=""></a><br/>
+    <a class='blog-post-subtitle' href=""></a>
+
+    	<div class='post'>
+        <p>
+        <h2>Well, my own blog post</h2>
+
+<p>I am Ram, just another computer engineer who works in an IT company.My day typically starts with computer in front of me and half drunk coffee aside.Its been almost two years since i graduated from college with my Bachelor&#39;s degree in Computer science.I always had this desire to have a blog and write some random stuff here and there. Thanks to github(http://github.com) and jekyll(https://jekyllrb.com) you guys made my dream come true without spending a single penny. Although i struggled a lot in setting this blog, it was quiet a fun learning new stuff.</p>
+
+<p>Well sometimes i think i am not good at written english. This blogging will help me to improve my skill.At this moment taking this baby step will do.</p>
+
+<p>Happy coding!! Publishing this post proudly using github pages.</p>
+
+        </p>
+      </div>
+
+
+
+</div>
+
 
             <footer>
                 <p>

@@ -1,3 +1,3 @@
 Ramakrishnan Sathyavgeeswaran
 
-Personal Website
+Personal Blog

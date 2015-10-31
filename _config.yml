@@ -1,3 +1,15 @@
-name: Ramakrishnan Sathyavageeswaran
+# Site settings
+title: Ramakrishnan's blog
+email: ramakrishnansathyav@gmail.com
+permalink: /:title
+paginate: 4
+paginate_path: "page:num"
+site_base: http://ramakrishnan.me
+blog_base: http://blog.ramakrishnan.me
+twitter_username: ramkrishs
+github_username:  ramkrishs
+
+# Build settings
 markdown: redcarpet
-pygments: true
+highlighter: true
+timezone: Asia/Kolkata

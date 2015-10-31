@@ -1,8 +1,58 @@
 ---
 layout: default
-title: Home
+canonical_url: "http://blog.ramakrishnan.me"
 ---
 
-{% assign page = site.posts.first %}
-{% assign content = page.content %}
-{% include post.html %}
+<div id="blog-posts">
+  <header class="bloghead">
+  <h1 class="bloghead-title">ramkrish's posts</h1>
+  </header>
+  <div class="posts">
+    {% for post in paginator.posts %}
+    	<div class='blog-post'>
+        <div class='blog-post-post-meta'>
+       		{{ post.date | date_to_string }}
+       	</div>
+	      <a class='blog-post-title' href="{{ post.url }}">{{ post.title }}</a><br/>
+	      <a class='blog-post-subtitle' href="{{ post.url }}">{{ post.subtitle }}</a>
+        <a class='blog-post-subtitle' href="{{ post.url }}">{{ post.subtitle }}</a>
+      </div>
+
+    {% endfor %}
+  </div>
+
+  <!-- Pagination links -->
+	<div id="post-pagination" class="pagination">
+    <ul class="pager">
+      
+      {% if paginator.previous_page %}
+		    <span class="previous">
+		      {% if paginator.previous_page == 1 %}
+		        <a href="/">Previous</a>
+		      {% else %}
+		        <a href="{{ paginator.previous_page_path }}">Previous</a>
+		      {% endif %}
+		    </span>
+		  {% else %}
+		    <span class="previous disabled">
+		      <!-- <span>Previous</span> -->
+		    </span>
+		  {% endif %}
+      {% if paginator.total_pages > 1 %}
+      page {{ paginator.page }} of {{ paginator.total_pages }} &nbsp;&nbsp;&nbsp;
+      {% endif %}
+
+      {% if paginator.next_page %}
+		    <span class="next">
+		      <a href="{{ paginator.next_page_path }}">Next</a>
+		    </span>
+		  {% else %}
+		    <span class="next disabled">
+		      <!-- <span>Next</span> -->
+		    </span>
+		  {% endif %}
+    </ul>
+</div>
+	<!-- Pagination links end -->
+
+</div>

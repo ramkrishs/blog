@@ -1,6 +1,8 @@
 ---
 layout: post
-title: My First Blog
+title: "My First Blog"
+subtitle: "small intro"
+description: "This is an sample description of the document"
 date:   2013-12-31 12:00:00
 categories: blog
 ---
@@ -12,5 +14,3 @@ I am Ram, just another computer engineer who works in an IT company.My day typic
 Well sometimes i think i am not good at written english. This blogging will help me to improve my skill.At this moment taking this baby step will do.
 
 Happy coding!! Publishing this post proudly using github pages.
-
-
