@@ -11,5 +11,4 @@ github_username:  ramkrishs
 
 # Build settings
 markdown: redcarpet
-highlighter: true
-timezone: Asia/Kolkata
+pygments: true
