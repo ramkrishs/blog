@@ -2,7 +2,7 @@
 layout: post
 title: 'My First <span>Blog</span>'
 subtitle: small intro
-description: This is an sample description of the document
+description: This is a description of the first post using jekyll
 date: 2013-12-31T12:00:00.000Z
 categories: post
 ---
