@@ -15,9 +15,13 @@ TechVista 2010 will feature some of the technical and policy thought leaders fro
 Session 1 (0900-1430)
 The inaugural session in the morning will feature leading and influential personalities from the government, academia and industry as speakers. Other highlights of the morning session include:
 •	A talk by Dr. Richard F. Rashid, Senior Vice President, Research, and the head of Microsoft Research worldwide.
+
 •	A Distinguished Address by Turing Award recipient Prof. Adi Shamir, The Paul and Marlene Borman Professor of Applied Mathematics, Weizmann Institute of Science.
+
 •	A panel discussion on "The Future of Computing" with Turing award recipients Prof. Barbara Liskov, Sir Tony Hoare, and Dr. Butler Lampson. Dr. Tony Hey, Corporate Vice President, External Research Division, Microsoft Research will also participate as a panelist.
+
 •	A talk by Dr. P. Anandan, Managing Director, Microsoft Research India, charting the progress of the lab since inception.
+
 *Please note that due to space constraints, admission to Session 1 will be by invitation only.( I got invitation since i'm  one among pull of 100 MSP)
 Session 2 (1430-1730):
 The second session of TechVista 2010 will feature a large number of cutting edge demos from the different Microsoft Research labs worldwide, talks by leading researchers and a poster session by Indian PhD students.
