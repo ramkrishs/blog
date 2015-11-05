@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'AN INTRODUCTION TO <span>MS SQL SERVER 2008</span>'
+title: 'An Introduction To <span>MS Sql Server 2008</span>'
 subtitle: Techtalk on sql
 description: Techtalk on MS SQL SERVER 2008.
 date: 2009-11-12T12:00:00.000Z
